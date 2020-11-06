@@ -1,0 +1,57 @@
+@import './_reset.scss';
+@import './variables';
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: $green;
+
+    .logo{
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        img{
+            width: 250px;
+        }
+    }
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 40px;
+
+    .info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: 30px;
+        h1{
+            font-weight: lighter;
+            font-size: 30px;
+            padding: 10px;    
+        }
+        .instructions{
+            padding: 20px;
+            line-height: 40px;
+        }    
+    }
+    .qrcode{
+        width:100%;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+.footer{
+    color: $gray-light;
+    background-color: $black;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
